@@ -20,7 +20,7 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-install(DIRECTORy config launch maps
+install(DIRECTORY config launch maps
 DESTINATION share/${PROJECT_NAME})
 
 ament_package()
